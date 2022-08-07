@@ -24,9 +24,10 @@ Aug 12 - Sep 23, 2022 (AoE)
 
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
 A valid face recognition evasion evasion submission consists of the following:
-1. a ZIP file containing modified malware samples with their original names (`001`, `002`, etc.)
-2. partial uploads are okay, and can be used to "update" or "complete" a solution
-3. uploads are rate limited; only infrequent uploads are allowed
+1. a ZIP file containing modified image samples with their original names (`001`, `002`, etc.)
+2. partial ZIP uploads are okay, and can be used to "update" or "complete" a solution
+3. uploads are not rate limited; but please do not overload the server
+4. uploading ZIP files either via the API or the website results in all checks and database updates. Uploading the samples only to the API results only in ML results, but no database entry is created. The later is faster, but you have to upload via ZIP method to "store" the results. 
 
 
 ## <a name='resources'></a>Resources
