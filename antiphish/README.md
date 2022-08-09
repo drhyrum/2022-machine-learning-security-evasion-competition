@@ -24,7 +24,7 @@ Aug 12 - Sep 23, 2022 (AoE)
 
 ### <a name='requirements'></a>Anti-phishing evasion track submission requirements
 A valid antiphishing evasion submission consists of the following:
-1. a ZIP file containing modified HTML samples with their original names (`001`, `002`, etc.)
+1. a ZIP file containing modified HTML samples with their original names (`01.html`, `02.html`, etc.)
 2. when rendered in a Chromium-based browser like [Microsoft Edge](https://www.microsoft.com/en-us/edge?r=1), each sample renders identically to the original
 3. partial uploads are okay, and can be used to "update" or "complete" a solution
 4. uploads are not rate limited; but we kindly ask you not to overload the server
