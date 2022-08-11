@@ -25,6 +25,7 @@ Aug 12 - Sep 23, 2022 (AoE)
 ## Details
 
 ### Legend
+
 An internet company wants to reinvent the experience for its website audience and use their faces instead of passwords. 
 
 To implement this visionary idea, the company’s data scientists have built a model to recognize user faces for authentication. 
@@ -32,6 +33,15 @@ To implement this visionary idea, the company’s data scientists have built a m
 The internet isn't always safe, so their AI Red Team implemented some hardening techniques after adversarial testing. 
 
 Before the official model rollout, the internet company requested some help from AI and cybersecurity communities.
+
+
+### Model
+
+The internet company has built an AI system with models that detect and recognize people's identities. 
+
+Their system takes photos as an input, and if the face is detected, it's cropped and used for recognition. 
+
+If confidence in the target identity is high enough, a user will be authenticated into their account.
 
 
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
