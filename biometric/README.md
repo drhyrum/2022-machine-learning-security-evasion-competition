@@ -22,6 +22,7 @@ Aug 12 - Sep 23, 2022 (AoE)
 ### <a name='rules-/-terms'></a>Rules / Terms
 [https://mlsec.io/tos](https://mlsec.io/tos)
 
+
 ## Details
 
 ### Legend
@@ -50,6 +51,7 @@ The data for facial recognition evaluation includes photos of 10 selected websit
 
 Images are provided in a PNG format with filenames ranging from 0-9 representing user IDs.
 
+
 ### Challenge
 
 Contest participants compete in crafting efficient evasion and impersonation attacks against the facial recognition model. 
@@ -63,11 +65,22 @@ It’s required to turn each identity `source` into every other identity `target
 
 Every `source_target` submission receives metrics indicating attack quality and image quality.
 
+
 ### Judging
 
 Winners are defined based on the best metrics from all of submitted 90 attack pairs. 
 
 The main competition metric is Confidence with Stealthiness used as the tie-breaker metric.
+
+
+### Metrics
+
+**Confidence**. Range (0,1), high is good. Shows probability of an adversarial image to a target class.
+
+**Stealthiness**. Range (0,1), high is good. Shows structural similarity of an adversarial image to a source image.
+
+**Success**. Range (True, False), True is good. Shows if an adversarial image is recognized as a target class successfully AND if an adversarial image preserves original image quality defined by `stealthiness>=0.5`.
+
 
 
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
