@@ -57,6 +57,12 @@ Contest participants compete in crafting efficient evasion and impersonation att
 The goal is to modify user photos to evade an original identity and impersonate a target identity while preserving image quality.
 
 
+### Submission
+
+It’s required to turn each identity `source` into every other identity `target` with a total of 90 attack pairs. 
+
+Every `source_target` submission receives metrics indicating attack quality and image quality.
+
 
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
 A valid face recognition evasion evasion submission consists of the following:
