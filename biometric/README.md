@@ -32,5 +32,6 @@ A valid face recognition evasion evasion submission consists of the following:
 
 ## <a name='resources'></a>Resources
 For additional questions, the following resources are available:
+* [API Description](https://mlsec.io/api_description/) for testing samples and uploading files
 * [Join the Slack channel](https://join.slack.com/t/evademalwareml/shared_invite/zt-1e3pjht1s-h0H8omBFtZjZY1d5mKrokg) to interact with other contestants
 * [Submit an issue](https://github.com/drhyrum/2022-machine-learning-security-evasion-competition/issues) 
