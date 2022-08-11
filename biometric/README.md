@@ -22,6 +22,18 @@ Aug 12 - Sep 23, 2022 (AoE)
 ### <a name='rules-/-terms'></a>Rules / Terms
 [https://mlsec.io/tos](https://mlsec.io/tos)
 
+## Details
+
+### Legend
+An internet company wants to reinvent the experience for its website audience and use their faces instead of passwords. 
+
+To implement this visionary idea, the company’s data scientists have built a model to recognize user faces for authentication. 
+
+The internet isn't always safe, so their AI Red Team implemented some hardening techniques after adversarial testing. 
+
+Before the official model rollout, the internet company requested some help from AI and cybersecurity communities.
+
+
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
 A valid face recognition evasion evasion submission consists of the following:
 1. a ZIP file containing a maximum of 100 modified image samples (in `PNG` format) with the following naming convention: `<src>_<target>.png` (e.g. `1_2.png` where 1 is the original image, and 2 is the targeted celebrity for the ML model to detect)
