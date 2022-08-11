@@ -25,7 +25,7 @@ Aug 12 - Sep 23, 2022 (AoE)
 
 ## Details
 
-### Legend
+### Story
 
 An internet company wants to reinvent the experience for its website audience and use their faces instead of passwords. 
 
