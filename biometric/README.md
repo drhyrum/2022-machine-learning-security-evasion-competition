@@ -50,6 +50,13 @@ The data for facial recognition evaluation includes photos of 10 selected websit
 
 Images are provided in a PNG format with filenames ranging from 0-9 representing user IDs.
 
+### Challenge
+
+Contest participants compete in crafting efficient evasion and impersonation attacks against the facial recognition model. 
+
+The goal is to modify user photos to evade an original identity and impersonate a target identity while preserving image quality.
+
+
 
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
 A valid face recognition evasion evasion submission consists of the following:
