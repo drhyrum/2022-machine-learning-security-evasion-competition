@@ -83,6 +83,24 @@ The main competition metric is Confidence with Stealthiness used as the tie-brea
 
 
 
+### Advice
+
+#### API usage
+* Develop and debug your adversarial examples with API for single image testing
+* Submit and register your adversarial examples with API for ZIP file manipulation
+
+
+#### API responses
+
+* Valid submission responses look like `{"confidence": 0.823142, "stealthiness": 0.56949, "success": true}`
+
+* Invalid submission responses look like `{ "confidence": 0.0, "stealthiness": 0.0, "success": false }`
+
+Common submission errors:
+* Adversarial image is linked to invalid source or target IDs
+* Adversarial image doesn’t contain a face as detected by the model
+
+
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
 A valid face recognition evasion evasion submission consists of the following:
 1. a ZIP file containing a maximum of 100 modified image samples (in `PNG` format) with the following naming convention: `<src>_<target>.png` (e.g. `1_2.png` where 1 is the original image, and 2 is the targeted celebrity for the ML model to detect)
