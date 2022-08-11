@@ -63,6 +63,12 @@ It’s required to turn each identity `source` into every other identity `target
 
 Every `source_target` submission receives metrics indicating attack quality and image quality.
 
+### Judging
+
+Winners are defined based on the best metrics from all of submitted 90 attack pairs. 
+
+The main competition metric is Confidence with Stealthiness used as the tie-breaker metric.
+
 
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
 A valid face recognition evasion evasion submission consists of the following:
