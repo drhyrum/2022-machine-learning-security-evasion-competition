@@ -86,8 +86,8 @@ The main competition metric is Confidence with Stealthiness used as the tie-brea
 ### Advice
 
 #### API usage
-* Develop and debug your adversarial examples with API for single image testing
-* Submit and register your adversarial examples with API for ZIP file manipulation
+* Develop and debug your adversarial examples with API for single image testing (results are not stored in the MLSEC system)
+* Submit and register your adversarial examples with API for ZIP file manipulation (results are stored in the MLSEC system)
 
 
 #### API responses
@@ -100,13 +100,16 @@ Common submission errors:
 * Adversarial image is linked to invalid source or target IDs
 * Adversarial image doesn’t contain a face as detected by the model
 
+### <a name='requirements'></a>Submission requirements
 
-### <a name='requirements'></a>Face recognition evasion track submission requirements
-A valid face recognition evasion evasion submission consists of the following:
-1. a ZIP file containing a maximum of 100 modified image samples (in `PNG` format) with the following naming convention: `<src>_<target>.png` (e.g. `1_2.png` where 1 is the original image, and 2 is the targeted celebrity for the ML model to detect)
-2. partial ZIP uploads are okay, and can be used to "update" or "complete" a solution
-3. uploads are not rate limited; but please do not overload the server
-4. uploading ZIP files either via the API or the website results in all checks and database updates. Uploading the samples only to the API results only in ML results, but no database entry is created. The later is faster, but you have to upload via ZIP method to "store" the results. 
+A valid face recognition evasion submission consists of the following:
+
+* ZIP archive submissions can be full or partial with 1 to 90 image files included
+* Image files must be in `PNG` format and follow the naming convention: `<source_id>_<target_id>.png` such as `0_1.png`
+* Image files with the same names will be analyzed only once unless their checksums are different
+* ZIP archive submissions are not limited and can be used to update or complete the solution
+* ZIP archive submissions are processed in batches according to a server schedule
+* ZIP archive submissions can be encrypted with the password `infected`
 
 
 ## <a name='resources'></a>Resources
