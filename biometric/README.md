@@ -1,25 +1,27 @@
-# Attacker Challenge: Face Recognition Evasion Track
-<!-- vscode-markdown-toc -->
-* [Overview](#overview)
-    * [Challenge Dates](#challenge-dates)
-    * [Rules / Terms](#rules-/-terms)
-* [Submission Requirements](#requirements)
-    * [Face Recognition evasion track submission requirements](#requirements)
-* [Resources](#resources)
+# Attacker Challenge: Face Recognition Evasion Track <!-- omit in toc -->
+- [Overview](#overview)
+  - [Challenge Dates](#challenge-dates)
+  - [Full terms](#full-terms)
+- [Details](#details)
+  - [Story](#story)
+  - [Model](#model)
+  - [Dataset](#dataset)
+  - [Challenge](#challenge)
+  - [Submission](#submission)
+  - [Judging](#judging)
+  - [Metrics](#metrics)
+  - [Advice](#advice)
+    - [API usage](#api-usage)
+    - [API responses](#api-responses)
+  - [Submission requirements](#submission-requirements)
+- [Resources](#resources)
 
-<!-- vscode-markdown-toc-config
-	numbering=false
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
+## Overview
 
-
-## <a name='overview'></a>Overview
-
-### <a name='challenge-dates'></a>Challenge Dates
+### Challenge Dates
 Aug 12 - Sep 23, 2022 (AoE)
 
-### <a name='rules-/-terms'></a>Rules / Terms
+### Full terms
 [https://mlsec.io/tos](https://mlsec.io/tos)
 
 
@@ -100,7 +102,7 @@ Common submission errors:
 * Adversarial image is linked to invalid source or target IDs
 * Adversarial image doesn’t contain a face as detected by the model
 
-### <a name='requirements'></a>Submission requirements
+### Submission requirements
 
 A valid face recognition evasion submission consists of the following:
 
@@ -112,7 +114,7 @@ A valid face recognition evasion submission consists of the following:
 * ZIP archive submissions can be encrypted with the password `infected`
 
 
-## <a name='resources'></a>Resources
+## Resources
 For additional questions, the following resources are available:
 * [API Description](https://mlsec.io/api_description/) for testing samples and uploading files
 * [Join the Slack channel](https://join.slack.com/t/evademalwareml/shared_invite/zt-1e3pjht1s-h0H8omBFtZjZY1d5mKrokg) to interact with other contestants
