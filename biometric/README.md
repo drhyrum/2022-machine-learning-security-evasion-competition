@@ -44,6 +44,13 @@ Their system takes photos as an input, and if the face is detected, it's cropped
 If confidence in the target identity is high enough, a user will be authenticated into their account.
 
 
+### Dataset
+
+The data for facial recognition evaluation includes photos of 10 selected website users. 
+
+Images are provided in a PNG format with filenames ranging from 0-9 representing user IDs.
+
+
 ### <a name='requirements'></a>Face recognition evasion track submission requirements
 A valid face recognition evasion evasion submission consists of the following:
 1. a ZIP file containing a maximum of 100 modified image samples (in `PNG` format) with the following naming convention: `<src>_<target>.png` (e.g. `1_2.png` where 1 is the original image, and 2 is the targeted celebrity for the ML model to detect)
